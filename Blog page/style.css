@@ -1,0 +1,241 @@
+body {
+    font-family: "Trirong", serif;
+    background-color:grey;
+    height: 100%;
+    margin: 0 auto;
+    width: 100%;
+     box-sizing: border-box; 
+}
+a {
+    text-decoration: none;
+    text-decoration-color: black;
+}
+header img {
+    border-radius: 50%;
+    margin: 0px;
+}
+header {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    position: sticky;
+    top: 0;
+    background-color:orangered;
+    align-items: center;
+    border: black 5px solid;
+    border-radius: 10px;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;  
+}
+header nav ul li {
+    margin-left: 10px;
+    font-size:30px;
+    border-left: black solid 3px;
+    padding: 10px;
+    color: black;
+}
+header nav ul li:hover {
+    color: thistle;
+    border-left: thistle solid 2px;
+}
+main {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-end;
+}
+.sidebar {
+    background-color: orangered;
+    display: flex;
+    flex-direction: column;
+    order: 1;
+    align-items: center;
+    padding: 20px;
+    border: 5px black solid;
+    border-radius: 20px;
+    width: 15%; 
+}
+.sidebar p {
+    font-size: large;
+    font-weight: bolder;
+    margin: 0 auto;
+    color: black;
+}
+main div ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+main div ul li {
+    border: 1px black solid;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: small;
+    margin-left: 0;
+}
+main div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+main div article {
+    display: flex;
+    flex-flow: column ;
+    flex-grow: 1;
+    flex-shrink: 1; 
+    border: solid 10px black;
+    border-radius: 50px;
+    flex-basis: 400px;
+    padding: 20px;
+    margin: 10px;
+    overflow-y: scroll;
+    max-height: 400px;
+    max-width: 500px;
+}
+
+.register , 
+.log {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .register form ,
+  .log form {
+    border: solid orangered 10px;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-between;
+  }
+  .gender {
+    display: flex;
+  }
+  .profile {
+      display:flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+  .profile-head {
+      display: flex;
+      justify-content:space-around;
+      border: orangered 5px solid;
+      padding:0 50px;
+      border-radius: 50px;
+      align-items: center;
+
+  }
+  .profile-body {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+  }
+  .profile-body div {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      width: min-content;
+      border: orangered 5px solid;
+      padding:0 50px;
+      border-radius: 50px;
+  }
+  .lorem {
+      width: 200px;
+      height: 200px;
+      overflow-y: scroll;
+      border: solid 5px black;
+  }
+  span {
+      font-weight: bolder;
+      font-size:larger;
+  }
+  .button {
+      font-size: xx-large;
+      font-weight: bolder;
+      color: black;
+      background-color: orangered;
+      padding: 5px;
+      border: 5px solid black;
+      border-radius: 10px;
+  }
+  .button:hover {
+      color: thistle;
+      border-color: thistle;
+  }
+  .about {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+  .about div {
+      display: flex;
+      flex-direction: column;
+      border: orangered 5px solid;
+      padding:0 50px;
+      border-radius: 50px;
+      width: min-content;
+      width: min-content;
+    
+  }
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  footer {
+      display: flex;
+      justify-content: baseline;
+      align-items: center;
+      flex-flow: column wrap;
+      background-color: orangered;
+      border: black 5px solid;
+      border-radius: 10px;
+      
